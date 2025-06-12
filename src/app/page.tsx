@@ -4,7 +4,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
-import Image from "next/image";
 
 // If you see type errors for gsap or lenis, run:
 // npm install --save-dev @types/gsap
