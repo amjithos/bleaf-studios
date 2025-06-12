@@ -447,8 +447,8 @@ export default function Home() {
             </clipPath>
             <g clipPath="url(#right-half)" ref={circlesFilledGroupRef}></g>
           </g>
-          <text className="geometric-text" x="100" y="100">THE CREATIVE</text>
-          <text className="geometric-text" x="100" y="115">PROCESS</text>
+          <text className="geometric-text" x="100" y="100">BLEAF</text>
+          <text className="geometric-text" x="100" y="115">STUDIOS.</text>
           <text className="geometric-text" x="1720" y="100">THE ESSENCE</text>
           <text className="geometric-text" x="1720" y="115">OF SOUND</text>
           <text className="geometric-text" x="100" y="980" ref={debugLine1Ref}>AWARENESS: SILENCE</text>
@@ -522,17 +522,10 @@ export default function Home() {
               <p>WHERE HEALING BECOMES ART</p>
             </div>
           </div>
-          <div className="footer-credits">
-            <p>
-              Sound Design & Music by{' '}
-              <a href="https://open.spotify.com/artist/6YXgRMajnjib8j6Cxzcryp?si=iiLnt59BRp6QgKGizkG5Zg" target="_blank" rel="noopener noreferrer">
-                @LXSTNGHT
-              </a>
-            </p>
-          </div>
+          
         </div>
         <div className="footer-svg-section">
-          <img className="footer-svg" src="https://assets.codepen.io/7558/arrival-text.svg" alt="" />
+          <img className="footer-svg" src="https://ik.imagekit.io/bleafstudios/BLEAF%20-%20ASSETS/bleaf-footer-text.svg?updatedAt=1749766389173" alt="BLEAF Studios" />
         </div>
       </footer>
     </>
