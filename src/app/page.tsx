@@ -5,9 +5,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
 
-// If you see type errors for gsap or lenis, run:
-// npm install --save-dev @types/gsap
-// or ignore if not available, as gsap works fine in JS/TS
+
 
 export default function Home() {
   // Audio refs
@@ -390,12 +388,6 @@ export default function Home() {
       {/* HEADER */}
       <header className="site-header">
         <div className="header-container">
-          <div className="logo-container">
-            <div className="logo-circles">
-              <div className="circle circle-1"></div>
-              <div className="circle circle-2"></div>
-            </div>
-          </div>
           <nav className="main-nav">
             <ul>
               <li>
@@ -413,7 +405,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="contact-link">
-            <a href="https://x.com/filipz">+CONNECT</a>
+            <a href="https://www.instagram.com/bleaf.studios/" target='_blank'>+CONNECT</a>
           </div>
         </div>
       </header>
@@ -436,7 +428,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* GEOMETRIC BACKGROUND */}
+      {/* GEOMETRIC BACKGROUND
       <div className="geometric-background">
         <svg className="geometric-svg" viewBox="0 0 1920 1080">
           <g id="grid-lines" ref={gridLinesRef}></g>
@@ -458,7 +450,7 @@ export default function Home() {
           <text className="geometric-text" x="1620" y="980">BETWEEN THE</text>
           <text className="geometric-text" x="1620" y="995">HEARTBEATS</text>
         </svg>
-      </div>
+      </div> */}
 
       {/* AUDIO ELEMENTS */}
       <audio ref={startClickSoundRef} preload="auto">
@@ -483,12 +475,12 @@ export default function Home() {
         <source src="https://assets.codepen.io/7558/lxstnght-night-angel.mp3" type="audio/mpeg" />
       </audio>
 
-      {/* CENTER CIRCLE */}
+      {/* CENTER CIRCLE
       <div className="center-circle">
         <div className="circle-container">
           <div className="glowing-circle" ref={glowCircleRef}></div>
         </div>
-      </div>
+      </div> */}
 
       {/* SECTIONS */}
       <section className="section section-1">

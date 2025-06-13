@@ -267,6 +267,10 @@ body::before {
   background-image: url("https://assets.codepen.io/7558/blue-orange-002.jpg");
 }
 
+.section-1 .section-content {
+  font-size: 16pt;
+}
+
 .geometric-background {
   position: fixed;
   top: 0;
